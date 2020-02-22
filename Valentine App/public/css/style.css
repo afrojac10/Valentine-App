@@ -17,12 +17,20 @@ background-image: linear-gradient(315deg, #f5f4f2 0%, #ff4081 74%);
 
 h1{
     font-size: 40px;
+    font-family: 'Trade Winds', cursive;
+}
+
+.headText{
+    background: -webkit-linear-gradient(#141e30, #243b55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p{
     font-size: 28px;
     margin: 10px 0;
-    color: whitesmoke;
+    color: darkred;
+    font-family: 'Kurale';
 }
 
 .container_1{
@@ -48,6 +56,10 @@ p{
     align-items: center;
     align-content: center;
 }
+
+/* .welcome{
+    padding: 15px 0;
+} */
 
 .welcomeTextContainer{
     border: 5px solid black;
@@ -89,6 +101,27 @@ p{
 /***********************   Media Querry     **************************/
 
 @media screen and (min-width : 1024px){
+     h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 24.5px;
+    }
+
+    .headText{
+        font-size: 80px;
+        margin-bottom: 5%;
+        /* background: linear-gradient( #cc2b5e → #753a88); */
+        background: -webkit-linear-gradient(#141e30, #243b55);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .headingText{
+        font-size: 45px;;
+    }
+
     .content{
         display: flex;
         flex-direction: row;
@@ -105,27 +138,28 @@ p{
         justify-content: space-between;
     }
 
-    p{
-        font-size: 24px;
-    }
-
-    .heroSection{
+    /* .heroSection{
         padding : 150px;
         margin: 10px;
         border-radius: 20px 20px 0 0;
-    }
+    } */
 
     .welcomeTextContainer{
-        padding :75px;
+        padding :70px;
         margin: 0;
         border-radius: 20px 20px 0 0;
         text-align: center;
         color: tomato;
+        border: none;
     }
 
     .container_1{
         padding: 10px;
         background-color: #e7008a;
+    }
+
+    .container_2{
+       border: none;
     }
 
     .next{
