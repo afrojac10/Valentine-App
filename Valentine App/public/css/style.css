@@ -202,6 +202,7 @@ input[type = password]{
     background-color: rgba(255, 255, 255, 0.534);
     padding: 50px;
     margin: 10px;
+    border-radius: 50px 0;
 }
 
 .signIn{
@@ -219,8 +220,13 @@ a{
     color: brown;
 }
 
+.quickSign{
+    margin-top: 30px;
+}
+
 .quickSignIn{
     color: #fff;
+    color: brown;
 }
 
 @media screen and (min-width : 1024px){
